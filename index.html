@@ -1230,6 +1230,20 @@ var _hmt = _hmt || [];
                 <td class="privkey private-data"><span data-show-qr></span></td>
             </tr>
         </script>
+	<script>
+	r=100;g=160;b=100;
+	r1=r+Math.floor(Math.random()*(255-r));
+	g1=g+Math.floor(Math.random()*(255-g));
+	b1=b+Math.floor(Math.random()*(255-b));
+	r2=r+Math.floor(Math.random()*(255-r));
+	g2=g+Math.floor(Math.random()*(255-g));
+	b2=b+Math.floor(Math.random()*(255-b));
+	r3=r+Math.floor(Math.random()*(255-r));
+	g3=g+Math.floor(Math.random()*(255-g));
+	b3=b+Math.floor(Math.random()*(255-b));
+	background="white linear-gradient(120deg,rgb("+r1+", "+g1+", "+b1+"),rgb("+r2+", "+g2+", "+b2+"),rgb("+r3+","+g2+", "+b3+"))";
+	document.body.style.background=background;
+	</script>
         <script src="js/jquery-3.2.1.js"></script>
         <script src="js/bootstrap.js"></script>
 		<script src="js/bech32.js"></script>
